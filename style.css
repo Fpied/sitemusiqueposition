@@ -1,0 +1,44 @@
+*{
+    
+}
+.header{
+    text-align: center;
+    background-color: aqua;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation__site__musique{
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    top: 150px;
+    margin-top: 0;
+    width: 100%;
+}
+.navigation__menu__horizontale{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    font-size: 0;
+}
+.grand__nom__de__musique{
+    display: inline-block;
+    margin: 0;
+    width: 25%;
+}
+.lien__grand__nom__de__musique{
+    margin-top: 0;
+    display: inline-block;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px 10px;
+    background-color: orange;
+    border: 15px solid black;
+    box-sizing: border-box;
+    width: 100%;
+}
+
