@@ -20,15 +20,19 @@
 }
 .navigation__menu__horizontale{
     list-style: none;
-    margin-top: 0;
+    margin: 0 auto;
     padding: 0;
     font-size: 0;
+    background-color: black;
+    width: 100%;
+    max-width: 1700px;
 }
 .grand__nom__de__musique{
     position: relative;
     display: inline-block;
     margin: 0;
-    width: 25%;
+    width: 180px;
+    max-width: 100%;
 }
 .lien__grand__nom__de__musique{
     position: relative;
@@ -86,7 +90,11 @@ footer{
     height: 40px;
     background-color: gray;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
 }
 .boite__flottante__sticky{
     position: sticky;
@@ -99,17 +107,37 @@ footer{
     border: 25px solid black;
 }
 .buttona{
-    padding: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+
+    width: min(90vw, 600px);
+    max-width: 100%;
+
+    padding: clamp(12px, 5vw, 30px);
     border: 10px solid black;
     background-color: yellow;
     text-decoration: none;
     font-size: 2em;
     border-radius: 50%;
+    max-width: 100%;
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
 }
 section{
     position: static;
-    margin: 100px;
+    margin: 40px auto;
     scroll-margin-top: 270px;
+    padding: 0 16px;
+    max-width: 900px;
+    scroll-margin-top: 270px;
+}
+video{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }
 
 
